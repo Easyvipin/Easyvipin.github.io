@@ -421,7 +421,7 @@ footer h2 {
   }
 }
 
-@media (max-width: 500px) and (max-width: 360px) {
+@media (max-width: 500px) and (min-width: 360px) {
   header {
     padding: 2px 0px;
     grid-gap: 0px;
