@@ -21,7 +21,7 @@ body {
 }
 #loader {
   align-items: center;
-  background-color: #f2f2f2;
+  background-color: var(--primaryColor);
   display: flex;
   justify-content: center;
   position: absolute;
@@ -38,19 +38,19 @@ body {
 /* scroll */
 
 #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
-  border: 2px solid var(--primaryColor); 
-  outline: none; 
-  background-color:var(--sixthColor); 
-  color: white; 
-  cursor: pointer; 
-  padding: 10px 5px; 
-  border-radius: 50%; 
-  font-size: 18px; 
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: 2px solid var(--primaryColor);
+  outline: none;
+  background-color: var(--sixthColor);
+  color: white;
+  cursor: pointer;
+  padding: 10px 5px;
+  border-radius: 50%;
+  font-size: 18px;
   width: 50px;
 }
 #myBtn img {
@@ -73,7 +73,7 @@ p {
 button {
   background: var(--secondColor);
   padding: 10px 1rem;
-  border: 4px solid
+  border: 4px solid;
   font-family: var(--primaryFont);
   font-size: 15px;
   font-weight: 800;
